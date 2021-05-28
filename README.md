@@ -3,13 +3,11 @@ About r-fastqcr
 
 Home: http://www.sthda.com/english/rpkgs/fastqcr/
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fastqcr-feedstock/blob/master/LICENSE.txt)
 
 Summary: 'FASTQC' is the most widely used tool for evaluating the quality of high throughput sequencing data.   It produces, for each sample, an html report and a compressed file containing the raw data.  If you have hundreds of samples, you are not going to open up each 'HTML' page.  You need some way of looking at these data in aggregate.  'fastqcr' Provides helper functions to easily parse, aggregate and analyze  'FastQC' reports for large numbers of samples. It provides a convenient solution for building  a 'Multi-QC' report, as well as, a 'one-sample' report with result interpretations.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-fastqcr` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-fastqcr` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
