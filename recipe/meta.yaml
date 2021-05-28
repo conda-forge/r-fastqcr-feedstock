@@ -57,7 +57,7 @@ test:
 
 about:
   home: http://www.sthda.com/english/rpkgs/fastqcr/
-  license: GPL-2
+  license: GPL-2.0-only
   summary: '''FASTQC'' is the most widely used tool for evaluating the quality of high throughput
     sequencing data.   It produces, for each sample, an html report and a compressed
     file containing the raw data.  If you have hundreds of samples, you are not going
