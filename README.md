@@ -3,7 +3,7 @@ About r-fastqcr
 
 Home: http://www.sthda.com/english/rpkgs/fastqcr/
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fastqcr-feedstock/blob/master/LICENSE.txt)
 
