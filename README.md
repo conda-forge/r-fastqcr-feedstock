@@ -1,11 +1,11 @@
-About r-fastqcr
-===============
+About r-fastqcr-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fastqcr-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.sthda.com/english/rpkgs/fastqcr/
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fastqcr-feedstock/blob/main/LICENSE.txt)
 
 Summary: 'FASTQC' is the most widely used tool for evaluating the quality of high throughput sequencing data.   It produces, for each sample, an html report and a compressed file containing the raw data.  If you have hundreds of samples, you are not going to open up each 'HTML' page.  You need some way of looking at these data in aggregate.  'fastqcr' Provides helper functions to easily parse, aggregate and analyze  'FastQC' reports for large numbers of samples. It provides a convenient solution for building  a 'Multi-QC' report, as well as, a 'one-sample' report with result interpretations.
 
